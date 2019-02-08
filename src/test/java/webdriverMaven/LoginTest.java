@@ -28,6 +28,8 @@ public class LoginTest {
 		driver.findElement(By.cssSelector("button[ng-click='manager()']")).click();
 		Thread.sleep(4000);
 		driver.findElement(By.cssSelector("button[ng-click='addCust()']")).click();
+		driver.findElement(By.cssSelector("input[ng-model='fName']")).click();
+		
 				
 	}
 	
